@@ -1,0 +1,22 @@
+﻿Build started 10/15/2015 9:56:04 PM.
+     1>Project "C:\Users\NguyenVietNamSon\Desktop\KTLT(7-2015) - Buoi 29\Thao Tac Tap Tin\Bai 6\Bai 6.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>c:\users\nguyenvietnamson\desktop\ktlt(7-2015) - buoi 29\thao tac tap tin\bai 6\source.cpp(56): error C2248: 'std::basic_ifstream<_Elem,_Traits>::basic_ifstream' : cannot access private member declared in class 'std::basic_ifstream<_Elem,_Traits>'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\fstream(827) : see declaration of 'std::basic_ifstream<_Elem,_Traits>::basic_ifstream'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>Done Building Project "C:\Users\NguyenVietNamSon\Desktop\KTLT(7-2015) - Buoi 29\Thao Tac Tap Tin\Bai 6\Bai 6.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.43
